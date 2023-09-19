@@ -1,0 +1,4 @@
+#Tue Sep 19 04:09:34 GMT+04:00 2023
+base.0=/Users/gnuao/StudioProjects/t3/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

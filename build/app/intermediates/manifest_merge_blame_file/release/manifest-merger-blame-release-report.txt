@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.t3"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:3:5-79
+12-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:camera_android] /Users/gnuao/StudioProjects/t3/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+14-->[:camera_android] /Users/gnuao/StudioProjects/t3/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->[:camera_android] /Users/gnuao/StudioProjects/t3/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+15-->[:camera_android] /Users/gnuao/StudioProjects/t3/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.t3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.t3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+24        android:name="android.app.Application"
+24-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:7:9-42
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] /Users/gnuao/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:8:9-43
+27        android:label="t3" >
+27-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:6:9-27
+28        <activity
+28-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:9:9-29:20
+29            android:name="com.example.t3.MainActivity"
+29-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:10:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:14:13-163
+31            android:exported="true"
+31-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:11:13-36
+32            android:hardwareAccelerated="true"
+32-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:15:13-47
+33            android:launchMode="singleTop"
+33-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:12:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:13:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:16:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:21:13-24:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:22:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:23:15-52
+46
+47            <intent-filter>
+47-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:25:13-28:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:26:17-68
+48-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:26:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:27:17-76
+50-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:27:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:32:9-34:33
+58            android:name="flutterEmbedding"
+58-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:33:13-44
+59            android:value="2" />
+59-->/Users/gnuao/StudioProjects/t3/android/app/src/main/AndroidManifest.xml:34:13-30
+60
+61        <service
+61-->[:geolocator_android] /Users/gnuao/StudioProjects/t3/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+62            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+62-->[:geolocator_android] /Users/gnuao/StudioProjects/t3/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+63            android:enabled="true"
+63-->[:geolocator_android] /Users/gnuao/StudioProjects/t3/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+64            android:exported="false"
+64-->[:geolocator_android] /Users/gnuao/StudioProjects/t3/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+65            android:foregroundServiceType="location" />
+65-->[:geolocator_android] /Users/gnuao/StudioProjects/t3/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+66
+67        <uses-library
+67-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+68            android:name="androidx.window.extensions"
+68-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+71            android:name="androidx.window.sidecar"
+71-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] /Users/gnuao/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gnuao/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+82    </application>
+83
+84</manifest>
